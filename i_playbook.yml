@@ -1,7 +1,7 @@
 # ansible -m ping all
 #play
 ---  
-- hosts: all
+- hosts: localhost
   become: yes
   tasks:
   - name: Execute ansible ping on hosts
